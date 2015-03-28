@@ -1,0 +1,2 @@
+CREATE TABLE users (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, email VARCHAR(128), password VARCHAR(128));
+CREATE TABLE messages (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, user_id INT NOT NULL, INDEX user_id(user_id), subject VARCHAR(64), INDEX subject(subject), body TEXT);
