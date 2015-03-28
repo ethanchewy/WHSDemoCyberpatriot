@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'PoetsenOne';
+  src: url('../PoetsenOne-Regular.ttf'); /* IE9 Compat Modes */
+       url('../PoetsenOne-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../PoetsenOne-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../PoetsenOne-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../PoetsenOne-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../PoetsenOne-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body {
+  font-family: "PoetsenOne";
+  background-color: #ececec;
+  height: 100%;
+}
+.navbar{
+  z-index: 3;
+  background-color: #f57c00;
+  border-radius:0px;
+  box-shadow: 3px 5px 5px #dc6f00;
+  height: 40px;
+  margin:0px;
+  border:0px;
+}
+
+.jumbotron {
+  background-color: #ff9800;
+  width:100%;
+  margin:0px;
+  min-height:34%;
+  font-family: "PoetsenOne";
+  box-shadow: 3px 6px 5px #ccc;
+  position: relative;
+  z-index: 2;
+}
+
+.row {
+  background-color: #ececec;
+  margin:0px;
+
+}
+
+.form-group {
+  margin:0px;
+  width: 120px;
+  position: relative;
+    left: 45%;
+    bottom: 2%;
+    position: absolute;
+
+}
+
+.btn {
+  border-radius: 20px;
+  height: 25px;
+  background-color: #55ACEE;
+  position: relative;
+  left: 53.5%;
+  bottom: 4%;
+  position: absolute;
+}
+
+
+/* name */
+.name {
+  color: ;
+}
+
+
+
+
+
+
+/*{
+  text-decoration: none;
+  color: #2196F3;
+  /*font-family: 'Lato'; */
+  /*font-weight: 400;
+} */
+
+a:hover
+{
+  text-decoration: none;
+  color: #64B5F6;
+}
+
+h2
+{
+  display: inline-block;
+  padding-right: 15px;
+}
+
